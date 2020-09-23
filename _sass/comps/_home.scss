@@ -1,0 +1,168 @@
+#cover {
+  background-color: $cover-color;
+  background-image: url("../assets/images/sat-maputo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  left: calc(-50vw + 50%);
+  top: -$spacing-unit * 2.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #FFFFFF;
+
+  * {
+    text-align: center;
+    margin: $spacing-unit / 2;
+  }
+
+  .post-title {
+    text-align: center;
+    @include relative-font-size(3.5);
+    line-height: 110%;
+    color: $grey-color-light;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
+
+    @media screen and (max-width: $on-palm) {
+      @include relative-font-size(2.5);
+    }
+  }
+
+  h2 {
+    @include relative-font-size(2);
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    color: $grey-color-light;
+    line-height: 1.1;
+  }
+}
+
+#home {
+  img {
+    width: 100vw !important;
+    position: relative;
+    left: calc(-50vw + 50%);
+    border-radius: 0;
+  }
+}
+
+#safari--cover .safari--description {
+  width: 1140px;
+  margin: auto;
+  padding: 0 60px;
+  font-size: $big-font-size;
+  color: $brand-color;
+}
+
+#safari--cover .safari--description blockquote {
+  font-size: $big-font-size;
+}
+
+#safari--partners {
+  margin-bottom: $spacing-unit * 2;
+}
+
+.home blockquote {
+  font-style: normal;
+
+  p {
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  em {
+    color: $brand-color;
+  }
+}
+
+.home--objectives {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: $spacing-unit * 2;
+  font-size: $big-font-size * 0.9;
+  font-family: $title-font-family;
+  text-align: center;
+  color: $text-color;
+
+  button {
+    padding: $spacing-unit / 2 $spacing-unit;
+    margin-right: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+    text-transform: none;
+    line-height: inherit;
+    @include relative-font-size(1.3);
+  }
+
+  .fas {
+    margin-right: 0.5rem;
+    color: $brand-color;
+  }
+
+  div {
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit / 2;
+    padding: $spacing-unit / 2 0;
+    border-radius: $spacing-unit;
+    font-weight: $title-font-weight;
+
+    @include relative-font-size(1.3)
+  }
+}
+
+.post-list {
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.post-list > li:first-child {
+  border-top: 1px solid $grey-color-dark;
+}
+
+.post-list > li {
+  display: flex;
+  padding: $spacing-unit / 1.5 0;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  border-bottom: 1px solid $grey-color-dark;
+  @include media-query($on-palm) {
+    padding: $spacing-unit / 2 0;
+    display: block;
+  }
+  @include relative-font-size(1.1);
+}
+
+.post-list > li > * {
+  width: 50%;
+  margin-bottom: 0;
+  margin-right: $spacing-unit;
+  @include media-query($on-palm) {
+   width: 100%;
+  }
+}
+
+.home-content {
+  * {
+
+  }
+  blockquote p {
+    column-count: 1;
+    margin-bottom: $spacing-unit * 2;
+  }
+  p {
+    margin-bottom: $spacing-unit * 2;
+
+    @include media-query($on-palm) {
+      column-count: 1;
+    }
+  }
+}

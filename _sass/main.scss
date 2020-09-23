@@ -1,0 +1,55 @@
+$base-font-family: "Crimson Pro", "Georgia", serif;
+$base-font-size:   20px !default;
+$base-font-weight: normal !default;
+$small-font-size:  $base-font-size * 1 !default;
+$big-font-size:    $base-font-size * 1.2 !default;
+$base-line-height: 1.5 !default;
+
+$title-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+$title-font-weight: 700 !default;
+
+$spacing-unit:     30px !default;
+
+$brand-color: #ff005d;
+$link-color: lighten($brand-color, 10%);
+
+$cover-color: #87A0B2;
+
+$grey-color:       #F4F6F6 !default;
+$grey-color-light: lighten($grey-color, 5%) !default;
+$grey-color-dark:  darken($grey-color, 10%) !default;
+$grey-color-darker:  darken($grey-color, 60%) !default;
+
+$text-color: darken($grey-color, 80%);
+$background-color: rgb(235,235,235);
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    940px !default;
+
+$on-palm:          768px !default;
+$on-laptop:        768px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+@import
+  "comps/base",
+  "comps/home",
+  "comps/layout"
+;

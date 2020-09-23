@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div id="post--cover">
+  <div>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <p>{{ page.date | date: date_format }} — {{ page.author | escape }}</p>
+  </div>
+</div>
+
+{{ content }}

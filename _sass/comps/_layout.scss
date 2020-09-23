@@ -1,0 +1,93 @@
+header {
+  background: rgb(235,255,0);
+  background: linear-gradient(180deg, rgba(235,255,0,1) 0%, rgba(235,255,0,0) 100%);
+  color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: $spacing-unit / 2 0;
+
+  a {
+    color: $text-color !important;
+    transition: 0.2s all ease;
+    border-bottom: 1px solid $brand-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $brand-color !important;
+    text-decoration: none;
+  }
+
+  .header--container {
+    display: flex;
+    align-content: center;
+
+    * {
+      margin-right: $spacing-unit;
+    }
+
+    .logo {
+      font-weight: 400;
+
+      @media screen and (max-width: $on-palm) {
+        display: none;
+      }
+    }
+
+  }
+
+  h5 {
+    margin: 0;
+    color: $text-color;
+  }
+}
+
+header img {
+  height: 30px;
+  width: auto;
+}
+
+#post--cover {
+  background-color: $cover-color;
+  background-image: url("../assets/images/sat-maputo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 45vh;
+  position: relative;
+  left: calc(-50vw + 50%);
+  top: -$spacing-unit * 2.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #FFFFFF;
+
+  * {
+    text-align: center;
+    margin: 0 $spacing-unit / 2;
+  }
+
+  .post-title {
+    text-align: center;
+    @include relative-font-size(3);
+    line-height: 110%;
+    color: $grey-color-light;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    @include relative-font-size(2);
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    color: $grey-color-light;
+    line-height: 1.1;
+  }
+}
