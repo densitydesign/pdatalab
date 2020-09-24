@@ -2,4 +2,7 @@
 
 ---
 
-@import "main";
+@import
+  "colors/{{ site.color | default: terracotta }}", 
+  "main"
+;

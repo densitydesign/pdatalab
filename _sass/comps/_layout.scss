@@ -1,16 +1,12 @@
 header {
-  background: rgb(235,255,0);
-  background: linear-gradient(180deg, rgba(235,255,0,1) 0%, rgba(235,255,0,0) 100%);
-  color: #000000;
   position: sticky;
   top: 0;
-  z-index: 999;
-  padding: $spacing-unit / 2 0;
+  z-index: 1;
+  padding: $spacing-unit / 3 0;
 
   a {
     color: $text-color !important;
     transition: 0.2s all ease;
-    border-bottom: 1px solid $brand-color;
     text-decoration: none;
   }
 
@@ -40,17 +36,17 @@ header {
   h5 {
     margin: 0;
     color: $text-color;
+    mix-blend-mode: exclusion;
   }
 }
 
 header img {
-  height: 30px;
+  height: 25px;
   width: auto;
 }
 
 #post--cover {
-  background-color: $cover-color;
-  background-image: url("../assets/images/sat-maputo.jpg");
+  background-color: $brand-color;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

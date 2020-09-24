@@ -1,3 +1,5 @@
+header { color: #FFFFFF !important; }
+
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
@@ -5,9 +7,9 @@ h1 { font-size: 30px; }
 
 sup { font-size: 16px; font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; weight: 700; }
 
-button { background: #ebebeb; padding: 10px 30px; border-radius: 30px; border: 1px solid #ff005d; color: #ff005d; font-family: "Crimson Pro", "Georgia", serif; font-size: 20px; font-weight: bold; text-transform: uppercase; transition: all .3s ease; margin-bottom: 15px; }
+button { background: #ebebeb; padding: 10px 30px; border-radius: 30px; border: 1px solid #122a54; color: #122a54; font-family: "Crimson Pro", "Georgia", serif; font-size: 20px; font-weight: bold; text-transform: uppercase; transition: all .3s ease; margin-bottom: 15px; }
 
-button:hover { cursor: pointer; background: #ff005d; color: #ebebeb; }
+button:hover { cursor: pointer; background: #122a54; color: #ebebeb; }
 
 /** Basic styling */
 body { font: normal 20px/1.5 "Crimson Pro", "Georgia", serif; color: #252d2d; background-color: #ebebeb; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
@@ -29,12 +31,12 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { color: #ff005d; font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 700; }
+h1, h2, h3, h4, h5, h6 { color: #122a54; font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 700; }
 
 /** Links */
-a { color: #ff337d; text-decoration: none; }
+a { color: #1b3f7e; text-decoration: none; }
 
-a:visited { color: #ff337d; }
+a:visited { color: #1b3f7e; }
 
 a:hover { color: #252d2d; text-decoration: underline; }
 
@@ -43,7 +45,7 @@ a:hover { color: #252d2d; text-decoration: underline; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
 /** Blockquotes */
-blockquote { font-size: 30px; font-style: italic; color: #ff005d; }
+blockquote { font-size: 30px; font-style: italic; color: #122a54; }
 
 blockquote > :last-child { margin-bottom: 0; }
 
@@ -100,7 +102,7 @@ table td { border: 1px solid white; }
 
 @media screen and (min-width: 768px) { .footer-col-wrapper { display: flex; } .footer-col { width: calc(100% - (30px / 2)); padding: 0 15px; } .footer-col:first-child { padding-right: 15px; padding-left: 0; } .footer-col:last-child { padding-right: 0; padding-left: 15px; } }
 
-#cover { background-color: #87A0B2; background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 80vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
+#cover { background-color: #122a54; background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 80vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
 
 #cover * { text-align: center; margin: 15px; }
 
@@ -112,7 +114,7 @@ table td { border: 1px solid white; }
 
 #home img { width: 100vw !important; position: relative; left: calc(-50vw + 50%); border-radius: 0; }
 
-#safari--cover .safari--description { width: 1140px; margin: auto; padding: 0 60px; font-size: 24px; color: #ff005d; }
+#safari--cover .safari--description { width: 1140px; margin: auto; padding: 0 60px; font-size: 24px; color: #122a54; }
 
 #safari--cover .safari--description blockquote { font-size: 24px; }
 
@@ -122,13 +124,13 @@ table td { border: 1px solid white; }
 
 .home blockquote p { margin-bottom: 15px; }
 
-.home blockquote em { color: #ff005d; }
+.home blockquote em { color: #122a54; }
 
 .home--objectives { display: flex; flex-wrap: wrap; margin-bottom: 60px; font-size: 21.6px; font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; text-align: center; color: #252d2d; }
 
 .home--objectives button { padding: 15px 30px; margin-right: 15px; margin-bottom: 15px; text-transform: none; line-height: inherit; font-size: 26px; }
 
-.home--objectives .fas { margin-right: 0.5rem; color: #ff005d; }
+.home--objectives .fas { margin-right: 0.5rem; color: #122a54; }
 
 .home--objectives div { margin-right: 30px; margin-bottom: 15px; padding: 15px 0; border-radius: 30px; font-weight: 700; font-size: 26px; }
 
@@ -150,11 +152,11 @@ table td { border: 1px solid white; }
 
 @media screen and (max-width: 768px) { .home-content p { column-count: 1; } }
 
-header { background: #ebff00; background: linear-gradient(180deg, #ebff00 0%, rgba(235, 255, 0, 0) 100%); color: #000000; position: sticky; top: 0; z-index: 999; padding: 15px 0; }
+header { position: sticky; top: 0; z-index: 1; padding: 10px 0; }
 
-header a { color: #252d2d !important; transition: 0.2s all ease; border-bottom: 1px solid #ff005d; text-decoration: none; }
+header a { color: #252d2d !important; transition: 0.2s all ease; text-decoration: none; }
 
-header a:hover { color: #ff005d !important; text-decoration: none; }
+header a:hover { color: #122a54 !important; text-decoration: none; }
 
 header .header--container { display: flex; align-content: center; }
 
@@ -164,16 +166,14 @@ header .header--container .logo { font-weight: 400; }
 
 @media screen and (max-width: 768px) { header .header--container .logo { display: none; } }
 
-header h5 { margin: 0; color: #252d2d; }
+header h5 { margin: 0; color: #252d2d; mix-blend-mode: exclusion; }
 
-header img { height: 30px; width: auto; }
+header img { height: 25px; width: auto; }
 
-#post--cover { background-color: #87A0B2; background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 60vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
+#post--cover { background-color: #122a54; background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 60vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
 
 #post--cover * { text-align: center; margin: 0 15px; }
 
 #post--cover .post-title { text-align: center; font-size: 60px; line-height: 110%; color: white; font-weight: 700; margin: auto; margin-top: 1rem; margin-bottom: 1rem; }
 
 #post--cover h2 { font-size: 40px; width: 95%; text-align: center; margin: auto; color: white; line-height: 1.1; }
-
-/*# sourceMappingURL=main.css.map */
