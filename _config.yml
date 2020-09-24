@@ -7,7 +7,8 @@ description: >
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 show_excerpts: false
-color: midnight
+# Select the theme color of your blog between forest, midnight, petrol, river, spice, terracotta
+# color: midnight
 
 # Minima date format
 minima:
