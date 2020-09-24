@@ -100,7 +100,7 @@ table td { border: 1px solid white; }
 
 @media screen and (min-width: 768px) { .footer-col-wrapper { display: flex; } .footer-col { width: calc(100% - (30px / 2)); padding: 0 15px; } .footer-col:first-child { padding-right: 15px; padding-left: 0; } .footer-col:last-child { padding-right: 0; padding-left: 15px; } }
 
-#cover { background-color: #87A0B2; background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 70vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
+#cover { background-color: #87A0B2; background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 80vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
 
 #cover * { text-align: center; margin: 15px; }
 
@@ -168,7 +168,7 @@ header h5 { margin: 0; color: #252d2d; }
 
 header img { height: 30px; width: auto; }
 
-#post--cover { background-color: #87A0B2; background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 45vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
+#post--cover { background-color: #87A0B2; background-image: url("../assets/images/sat-maputo.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; width: 100vw; height: 60vh; position: relative; left: calc(-50vw + 50%); top: -75px; display: flex; align-items: center; justify-content: center; vertical-align: middle; flex-wrap: wrap; color: #FFFFFF; }
 
 #post--cover * { text-align: center; margin: 0 15px; }
 
