@@ -5,9 +5,10 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p class="feed-subscribe">
-          <img src="https://www.publicdatalab.org/imgs/publicdatalab-logo.svg">
-        </p>
+
+        {%- for author in site.author -%}
+          <img src="{{ author.logo }}" width="120" style="margin-right: 1rem">
+        {%- endfor -%}
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -18,9 +19,6 @@
           {%- endif %}
         </ul>
       {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
