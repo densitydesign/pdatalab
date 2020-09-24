@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["benedetti.a93@gmail.com"]
 
   spec.summary       = "PDL Template"
-  spec.homepage      = "https://github.com/andreabenedetti/pdatalab-template"
+  spec.homepage      = "https://github.com/densitydesign/pdatalab-template"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
