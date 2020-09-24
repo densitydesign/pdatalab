@@ -1,14 +1,29 @@
-# pdatalab
+# Public Data Lab Template Theme
+This repository contains the template for Public Data Lab's blog websites. First, you have to install Jekyll on your computer. Follow the official [Jekyll tutorial on their website](https://jekyllrb.com/docs/installation/).
 
-TODO: Delete this and the text above, and describe your gem
+Once you have installed it, create a new repository with your personal account that will contain your blog. Once created, clone it on your computer and run the following command on your terminal:
 
+```
+gem install jekyll bundler
+```
+
+and then
+
+```
+jekyll new /path/to/your/cloned/repository
+```
+
+Now you should have a plain Jekyll website available on your repository. To test it, you can run
+
+```
+bundle exec jekyll serve
+```
 
 ## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
+To install the Public Data Lab theme, add the following line to your Jekyll site's `Gemfile`. You can find it in the main folder of your repository
 
 ```ruby
-gem "pdatalab"
+gem 'pdatalab', :git => 'https://github.com/densitydesign/pdatalab.git'
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
@@ -26,8 +41,28 @@ Or install it yourself as:
     $ gem install pdatalab
 
 ## Usage
+To customize your website, five different colors are available to be used:
+- forest
+- midnight
+- petrol
+- river
+- terracotta
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+The default is `terracotta`. You can change it by adding in `_config.yml` the following line:
+
+```yaml
+color: forest
+```
+
+To list your research partners, add in `_config.yml` the following block:
+
+```yaml
+author:
+  - name: Partner 1
+    logo: https://institution/logo.EXT
+  - name: Partner 2
+    logo: https://institution/logo.EXT
+```
 
 ## Contributing
 
