@@ -10,6 +10,7 @@ layout: default
 </div>
 
 <div id="home">
+  {%- if site.participants || if site.author -%}
   <div class="meta-data">
     <h4>Affiliations</h4>
     <ul>
@@ -19,11 +20,13 @@ layout: default
     </ul>
     <h4>People</h4>
     <ul>
-      {%- for person in site.people -%}
+      {%- for person in site.participants -%}
         <li>{{ person.name }}</li>
       {%- endfor -%}
     </ul>
   </div>
+  {%- endif -%}
+  
   <div class="main-content">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>

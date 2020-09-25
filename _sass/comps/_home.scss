@@ -48,7 +48,17 @@
 #home {
   display: grid;
   grid-template-columns: 25% 75%;
-  
+  @include relative-font-size(0.9);
+
+  .meta-data ul {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+      margin: 0;
+    }
+  }
+
   img {
     width: 100vw !important;
     position: relative;
