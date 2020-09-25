@@ -110,6 +110,8 @@ table td { border: 1px solid white; }
 
 #cover h2 { font-size: 40px; width: 95%; text-align: center; margin: auto; color: white; line-height: 1.1; }
 
+#home { display: grid; grid-template-columns: 25% 75%; }
+
 #home img { width: 100vw !important; position: relative; left: calc(-50vw + 50%); border-radius: 0; }
 
 #safari--cover .safari--description { width: 1140px; margin: auto; padding: 0 60px; font-size: 24px; color: #b94428; }

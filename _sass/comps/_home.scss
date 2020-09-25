@@ -46,6 +46,9 @@
 }
 
 #home {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  
   img {
     width: 100vw !important;
     position: relative;

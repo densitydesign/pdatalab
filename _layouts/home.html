@@ -9,7 +9,22 @@ layout: default
   </div>
 </div>
 
-<div class="home">
+<div id="home">
+  <div class="meta-data">
+    <h4>Affiliations</h4>
+    <ul>
+    {%- for institution in site.author -%}
+      <li>{{ institution.name }}</li>
+    {%- endfor -%}
+    </ul>
+    <h4>People</h4>
+    <ul>
+      {%- for person in site.people -%}
+        <li>{{ person.name }}</li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <div class="main-content">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -69,5 +84,5 @@ layout: default
 
     {%- endif -%}
     </section>
-
+</div>
 </div>
