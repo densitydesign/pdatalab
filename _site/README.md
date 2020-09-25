@@ -1,7 +1,7 @@
 # Public Data Lab Template Theme
 This repository contains the template for Public Data Lab's blog websites. First, you have to install Jekyll on your computer. Follow the official [Jekyll tutorial on their website](https://jekyllrb.com/docs/installation/).
 
-Once you have installed it, create a new repository with your personal account that will contain your blog. Once created, clone it on your computer and run the following command on your terminal:
+Once you have installed it, create *a new repository* with your personal account that will contain your blog. Once created, clone it on your computer and run the following command on your terminal:
 
 ```
 gem install jekyll bundler
@@ -62,6 +62,13 @@ author:
     logo: https://institution/logo.EXT
   - name: Partner 2
     logo: https://institution/logo.EXT
+```
+
+You can also list the single participants that worked on the project again in the `_config.yml`
+```yaml
+participants:
+  - name: Participant 1
+  - name: Participant 2
 ```
 
 ## Contributing
