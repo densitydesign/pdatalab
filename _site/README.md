@@ -18,6 +18,7 @@ Now you should have a plain Jekyll website available on your repository. To test
 ```
 bundle exec jekyll serve
 ```
+by opening the repository in your terminal with Github Desktop (in the menu bar: `Repository > Open in Terminal`)
 
 ## Installation
 To install the Public Data Lab theme, add the following line to your Jekyll site's `Gemfile`. You can find it in the main folder of your repository
@@ -71,19 +72,24 @@ participants:
   - name: Participant 2
 ```
 
+## Adding blog posts
+Add blog posts in the folder `_posts`, and name them `YYYY-MM-DD-title-of-the-post.md`. You can use [markdown](https://guides.github.com/features/mastering-markdown/) to write your blog post. At the top, be sure to copy and paste this block of text, complete with dashes:
+
+```yaml
+---
+layout: post
+title: "This post demonstrates post content styles"
+author: Name 1, Name 2
+---
+```
+
+## Testing and publishing
+After opening the repository in your terminal (`Repository > Open in Terminal` on Github Desktop), run `bundle exec jekyll serve` to test your website locally. This will also update the public website.
+
+Once you are done updating your website, go to Github Desktop, name and commit your changes, and `push` them online.
+
+Be sure to go to the repository's `Settings`, scroll down to `Github Page` and publish the `master` folder as a website. The blog will be published at that link.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `pdatalab.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
