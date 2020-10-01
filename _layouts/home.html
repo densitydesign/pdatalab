@@ -16,8 +16,8 @@ layout: default
   <div class="meta-data">
     <h4>Organizations</h4>
     <ul>
-    {%- for institution in site.author -%}
-      <li>{{ institution.name }}</li>
+    {%- for organization in site.author -%}
+      <a href="{{ organization.url }}" target="_blank"><li>{{ organization.name }}</li></a>
     {%- endfor -%}
     </ul>
     <h4>People</h4>

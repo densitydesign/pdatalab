@@ -9,8 +9,7 @@ participants:
 author:
   - name: Public Data Lab
     logo: https://www.publicdatalab.org/imgs/publicdatalab-logo.svg
-  - name: Public Data Lab
-    logo: https://www.publicdatalab.org/imgs/publicdatalab-logo.svg
+    url: https://www.publicdatalab.org/
 description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for

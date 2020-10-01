@@ -32,9 +32,9 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { color: #87A0B2; font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 700; }
 
 /** Links */
-a { color: #a6b9c6; text-decoration: none; }
+a { color: #526d81; text-decoration: none; }
 
-a:visited { color: #a6b9c6; }
+a:visited { color: #526d81; }
 
 a:hover { color: #252d2d; text-decoration: underline; }
 

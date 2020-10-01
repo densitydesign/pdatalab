@@ -7,7 +7,7 @@
       <div class="footer-col">
 
         {%- for author in site.author -%}
-          <img src="{{ author.logo }}" height="50" width="auto" style="margin-right: 2rem">
+          <a href="{{ author.url }}" target="_blank"><img src="{{ author.logo }}" height="50" width="auto" style="margin-right: 2rem"></a>
         {%- endfor -%}
       {%- if site.author %}
         <ul class="contact-list">
