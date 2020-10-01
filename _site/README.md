@@ -21,16 +21,20 @@ bundle exec jekyll serve
 by opening the repository in your terminal with Github Desktop (in the menu bar: `Repository > Open in Terminal`)
 
 ## Installation
-To install the Public Data Lab theme, add the following line to your Jekyll site's `Gemfile`. You can find it in the main folder of your repository
+To install the Public Data Lab theme, add the following lines to your Jekyll site's `Gemfile`. You can find it in the main folder of your repository
 
 ```ruby
 gem 'pdatalab', :git => 'https://github.com/densitydesign/pdatalab.git'
+gem "jekyll-remote-theme"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+And add these lines to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: pdatalab
+remote_theme: densitydesign/pdatalab
+
+plugins:
+  - jekyll-remote-theme
 ```
 
 And then execute:
