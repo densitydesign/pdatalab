@@ -11,7 +11,7 @@ layout: default
 <div id="home">
   {%- if site.participants || if site.author -%}
   <div class="meta-data">
-    <h4>Affiliations</h4>
+    <h4>Organizations</h4>
     <ul>
     {%- for institution in site.author -%}
       <li>{{ institution.name }}</li>
@@ -56,9 +56,6 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        <p>
-          {{ post.author }}
-        </p>
         {%- if site.show_excerpts -%}
         {{ post.excerpt }}
         {%- endif -%}
