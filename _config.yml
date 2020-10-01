@@ -1,4 +1,7 @@
 title: "An exhaustive title to your research"
+subtitle: "A more specific subtitle of the research"
+
+tagline: "Customize this in the _config.yml by specifying 'tagline:'"
 participants:
   - name: Rahima Mccray
   - name: Yaqub Duncan

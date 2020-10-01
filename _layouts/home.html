@@ -5,6 +5,9 @@ layout: default
 <div id="cover">
   <div>
     <h1 class="post-title">{{ site.title | escape }}</h1>
+    {%- if site.subtitle -%}
+    <p>{{ site.subtitle | escape }}</p>
+    {%- endif -%}
   </div>
 </div>
 
@@ -41,7 +44,9 @@ layout: default
   {% endif %}
 
   <section>
-    <h2>Read the research:</h2>
+    {%- if site.tagline -%}
+    <h2>{{ site.tagline | escape }}</h2>
+    {%- endif -%}
     {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
     <h2 class="post-list-heading">{{ page.list_title }}</h2>

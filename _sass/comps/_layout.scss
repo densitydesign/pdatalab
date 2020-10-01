@@ -3,15 +3,17 @@ header {
   top: 0;
   z-index: 1;
   padding: $spacing-unit / 3 0;
+  padding-top: $spacing-unit / 3 + 1;
+  background: $brand-color;
 
   a {
-    color: $text-color !important;
+    color: #FFFFFF !important;
     transition: 0.2s all ease;
     text-decoration: none;
   }
 
   a:hover {
-    color: $brand-color !important;
+    color: darken($brand-color, 40%) !important;
     text-decoration: none;
   }
 
@@ -36,7 +38,6 @@ header {
   h5 {
     margin: 0;
     color: $text-color;
-    mix-blend-mode: exclusion;
   }
 }
 
