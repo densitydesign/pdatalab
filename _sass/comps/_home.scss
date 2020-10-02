@@ -50,6 +50,23 @@
   grid-template-columns: 25% 75%;
   @include relative-font-size(0.9);
 
+  @include media-query($on-laptop) {
+    grid-auto-rows: auto;
+
+    .main-content {
+      grid-column: 1 / span 2;
+      grid-row: 2 / span 1;
+    }
+
+    .meta-data {
+      grid-column: 1 / span 2;
+      border-bottom: 1px solid $grey-color-dark;
+      color: $grey-color-darker;
+      margin-bottom: $spacing-unit;
+      margin-top: -$spacing-unit;
+    }
+  }
+
   .meta-data ul {
     list-style: none;
     margin-left: 0;
@@ -68,22 +85,6 @@
   }
 }
 
-#safari--cover .safari--description {
-  width: 1140px;
-  margin: auto;
-  padding: 0 60px;
-  font-size: $big-font-size;
-  color: $brand-color;
-}
-
-#safari--cover .safari--description blockquote {
-  font-size: $big-font-size;
-}
-
-#safari--partners {
-  margin-bottom: $spacing-unit * 2;
-}
-
 .home blockquote {
   font-style: normal;
 
@@ -93,40 +94,6 @@
 
   em {
     color: $brand-color;
-  }
-}
-
-.home--objectives {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: $spacing-unit * 2;
-  font-size: $big-font-size * 0.9;
-  font-family: $title-font-family;
-  text-align: center;
-  color: $text-color;
-
-  button {
-    padding: $spacing-unit / 2 $spacing-unit;
-    margin-right: $spacing-unit / 2;
-    margin-bottom: $spacing-unit / 2;
-    text-transform: none;
-    line-height: inherit;
-    @include relative-font-size(1.3);
-  }
-
-  .fas {
-    margin-right: 0.5rem;
-    color: $brand-color;
-  }
-
-  div {
-    margin-right: $spacing-unit;
-    margin-bottom: $spacing-unit / 2;
-    padding: $spacing-unit / 2 0;
-    border-radius: $spacing-unit;
-    font-weight: $title-font-weight;
-
-    @include relative-font-size(1.3)
   }
 }
 
