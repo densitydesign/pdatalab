@@ -17,7 +17,7 @@ description: >
 show_excerpts: false
 
 # Select the theme color of your blog between forest, midnight, petrol, river, spice, terracotta
-color: river
+color: midnight
 
 # Minima date format
 minima:
