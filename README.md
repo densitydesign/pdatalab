@@ -46,6 +46,18 @@ Or install it yourself as:
     $ gem install pdatalab
 
 ## Usage
+Remember to set the baseurl and url to allow the template to build the correct paths to resources (stylesheets, script files, images, posts) by specifying:
+
+```yaml
+baseurl: /LikeThis # The name of the repository you're using
+```
+
+and 
+
+```yaml
+url: https://likethis.org # The url for the Github account (if it's inside the PDL, it will probably be https://publicdatalab.github.io
+```
+
 To customize your website, five different colors are available to be used:
 - forest
 - midnight
