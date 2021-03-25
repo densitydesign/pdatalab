@@ -1,11 +1,11 @@
-$base-font-family: "Crimson Pro", "Georgia", serif;
-$base-font-size:   20px !default;
-$base-font-weight: normal !default;
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$base-font-size:   17px !default;
+$base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 1 !default;
-$big-font-size:    $base-font-size * 1.2 !default;
+$big-font-size:    $base-font-size * 1 !default;
 $base-line-height: 1.5 !default;
 
-$title-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+$title-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $title-font-weight: 700 !default;
 
 $spacing-unit:     30px !default;
