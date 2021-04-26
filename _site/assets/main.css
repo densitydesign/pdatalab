@@ -17,6 +17,8 @@ body { font: 400 17px/1.5 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI"
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure { margin-bottom: 30px; }
 
+ul, ol { margin-top: -30px; }
+
 /** `main` element */
 main { display: block; }
 
